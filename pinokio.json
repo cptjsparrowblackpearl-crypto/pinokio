@@ -1,0 +1,13 @@
+{
+  "name": "My Pinokio App",
+  "description": "Runs inference using HuggingFace models",
+  "scripts": {
+    "start": {
+      "cmd": "python main.py",
+      "working_dir": "."
+    }
+  },
+  "dependencies": {
+    "pip": ["transformers", "torch", "flask"]
+  }
+}
