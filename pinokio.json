@@ -1,0 +1,13 @@
+{
+  "name": "huggingface-infer",
+  "description": "Run Hugging Face model inference locally via Pinokio",
+  "scripts": {
+    "start": {
+      "cmd": "python main.py",
+      "desc": "Start the inference server"
+    }
+  },
+  "dependencies": {
+    "python": ">=3.8"
+  }
+}
